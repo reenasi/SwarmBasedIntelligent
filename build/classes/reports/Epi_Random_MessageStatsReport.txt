@@ -1,0 +1,20 @@
+Message stats for scenario Epi_Random
+sim_time: 604800.0999
+created: 504
+started: 28308
+relayed: 27353
+aborted: 955
+dropped: 27277
+removed: 0
+delivered: 496
+delivery_prob: 0.9841
+response_prob: 0.0000
+overhead_ratio: 54.1472
+latency_avg: 4191.1093
+latency_med: 3901.0000
+hopcount_avg: 3.4698
+hopcount_med: 3
+buffertime_avg: 12184.9881
+buffertime_med: 14180.3000
+rtt_avg: NaN
+rtt_med: NaN
