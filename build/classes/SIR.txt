@@ -4,7 +4,7 @@
 #
 
 ## Scenario settings
-Scenario.name = SIR_Random_NEW
+Scenario.name = ir_SIR_Random_NEW
 Scenario.simulateConnections = true
 Scenario.updateInterval = 0.1
 # 43200s == 12h
@@ -63,8 +63,11 @@ Group.movementModel = RandomWaypoint
 Group.router = DecisionEngineRouter
 DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter11
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
-DecisionEngineRouter.nrofCopies = 10
+DecisionEngineRouter.nrofCopies = 5
 DecisionEngineRouter.binaryMode = true
+DecisionEngineRouter.max = 3600
+DecisionEngineRouter.min = 0
+
 
 
 #Group.router = EpidemicRouter

@@ -1,4 +1,4 @@
-Message stats for scenario SIR_Haggle_NEW
+Message stats for scenario ir_SIR_Haggle_NEW
 sim_time: 274883.0000
 created: 141
 started: 823

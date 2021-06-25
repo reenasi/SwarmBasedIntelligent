@@ -1,0 +1,20 @@
+Message stats for scenario er_Epi_Haggle
+sim_time: 274883.0000
+created: 141
+started: 65830
+relayed: 62653
+aborted: 3177
+dropped: 62312
+removed: 0
+delivered: 90
+delivery_prob: 0.6383
+response_prob: 0.0000
+overhead_ratio: 695.1444
+latency_avg: 19109.4111
+latency_med: 16724.0000
+hopcount_avg: 6.7222
+hopcount_med: 5
+buffertime_avg: 1509.6280
+buffertime_med: 59.0000
+rtt_avg: NaN
+rtt_med: NaN

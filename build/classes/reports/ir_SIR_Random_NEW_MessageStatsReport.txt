@@ -1,4 +1,4 @@
-Message stats for scenario SIR_Random_NEW
+Message stats for scenario ir_SIR_Random_NEW
 sim_time: 604800.0999
 created: 504
 started: 1998

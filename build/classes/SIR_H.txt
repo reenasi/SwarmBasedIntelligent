@@ -1,5 +1,5 @@
 ##Scenario settings
-Scenario.name = SIR_Haggle_NEW
+Scenario.name = ir_SIR_Haggle_NEW
 Scenario.simulateConnections = false
 Scenario.updateInterval = 1
 # 86400s == 24h
@@ -15,8 +15,10 @@ Group.nodeLocation = 0,1
 Group.router = DecisionEngineRouter
 DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter11
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
-DecisionEngineRouter.nrofCopies = 10
+DecisionEngineRouter.nrofCopies = 4
 DecisionEngineRouter.binaryMode = true
+DecisionEngineRouter.max = 3600
+DecisionEngineRouter.min = 0
 
 Group.bufferSize = 6M
 Group.waitTime = 0, 120

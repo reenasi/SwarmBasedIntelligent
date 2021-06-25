@@ -1,5 +1,5 @@
 ##Scenario settings
-Scenario.name = SIR_Reality_NEW lcop 15
+Scenario.name = ir_SIR_Reality_NEW lcop 15
 Scenario.simulateConnections = false
 Scenario.updateInterval = 1
 # 86400s == 24h
@@ -17,6 +17,8 @@ DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter11
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
 DecisionEngineRouter.nrofCopies = 15
 DecisionEngineRouter.binaryMode = true
+DecisionEngineRouter.max = 3600
+DecisionEngineRouter.min = 0
 
 Group.bufferSize = 15M
 Group.waitTime = 0, 120

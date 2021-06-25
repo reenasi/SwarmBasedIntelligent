@@ -4,7 +4,7 @@
 #
 
 ## Scenario settings
-Scenario.name = Epi_Random
+Scenario.name = er_Epi_Random
 Scenario.simulateConnections = true
 Scenario.updateInterval = 0.1
 # 43200s == 12h
@@ -60,12 +60,14 @@ Group.movementModel = RandomWaypoint
 
 
 # for DecisionEngineRouter
-Group.router = DecisionEngineRouter
-DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
+#Group.router = DecisionEngineRouter
+#DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
 #DecisionEngineRouter.nrofCopies = 10
 #DecisionEngineRouter.binaryMode = true
 
+
+Group.router = EpidemicRouter
 
 #Group.router = EpidemicRouter
 Group.bufferSize = 5M

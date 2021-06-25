@@ -1,4 +1,4 @@
-Message stats for scenario SIR_Reality_NEW lcop 15
+Message stats for scenario ir_SIR_Reality_NEW lcop 15
 sim_time: 8640000.0000
 created: 191
 started: 2472

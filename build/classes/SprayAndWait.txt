@@ -4,7 +4,7 @@
 #
 
 ## Scenario settings
-Scenario.name = SnWait_Random
+Scenario.name = ar_SnW_Random_NEW
 Scenario.simulateConnections = true
 Scenario.updateInterval = 0.1
 # 43200s == 12h
@@ -60,11 +60,16 @@ Group.movementModel = RandomWaypoint
 
 
 # for DecisionEngineRouter
-Group.router = DecisionEngineRouter
-DecisionEngineRouter.decisionEngine = SprayAndWaitDecisionEngine 
+#Group.router = DecisionEngineRouter
+#DecisionEngineRouter.decisionEngine = SprayAndWaitDecisionEngine
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
-DecisionEngineRouter.nrofCopies = 10
-DecisionEngineRouter.binaryMode = true
+#DecisionEngineRouter.nrofCopies = 10
+#DecisionEngineRouter.binaryMode = true
+
+
+Group.router = SprayAndWaitRouter
+SprayAndWaitRouter.nrofCopies = 5
+SprayAndWaitRouter.binaryMode = true
 
 
 #Group.router = EpidemicRouter
@@ -131,20 +136,13 @@ MapBasedMovement.mapFile4 = data/shops.wkt
 eUnit = 30
 #SprayAndWaitRouter.nrofCopies = 6
 # how many reports to load
-Report.nrofReports = 8
+Report.nrofReports = 1
 # length of the warm up period (simulated seconds)
 Report.warmup = 0
 # default directory of reports (can be overridden per Report with output setting)
 Report.reportDir = reports/
 # Report classes to load
 Report.report1 = MessageStatsReport
-Report.report2 = MessageDeliveryReport
-Report.report3 = MessageDeliveredPerContactReport
-Report.report4 = OverheadPerContactReport
-Report.report5 = BufferOccupancyReport
-Report.report6 = MessageDelayReport
-Report.report7 = MessageDeleteReport
-Report.report8 = LatencyPerContactReport
 
 ## Default settings for some routers settings
 ProphetRouter.secondsInTim

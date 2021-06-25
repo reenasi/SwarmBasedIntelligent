@@ -1,5 +1,5 @@
 ##Scenario settings
-Scenario.name = Epi_Haggle
+Scenario.name = er_Epi_Haggle
 Scenario.simulateConnections = false
 Scenario.updateInterval = 1
 # 86400s == 24h
@@ -12,11 +12,13 @@ Scenario.endTime = 274883
 Group.movementModel = StationaryMovement
 Group.nodeLocation = 0,1
 
-Group.router = DecisionEngineRouter
-DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
+#Group.router = DecisionEngineRouter
+#DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
 #DecisionEngineRouter.nrofCopies = 10
 #DecisionEngineRouter.binaryMode = true
+
+Group.router = EpidemicRouter
 
 Group.bufferSize = 6M
 Group.waitTime = 0, 120
@@ -72,7 +74,7 @@ MovementModel.warmup = 1000
 ## Reports - all report names have to be valid report classes
 
 # how many reports to load
-Report.nrofReports = 8
+Report.nrofReports = 1
 # length of the warm up period (simulated seconds)
 Report.warmup = 0
 # default directory of reports (can be overridden per Report with output setting)
@@ -80,10 +82,3 @@ Report.reportDir = reports
 # Report classes to load
 
 Report.report1 = MessageStatsReport
-Report.report2 = MessageDeliveryReport
-Report.report3 = MessageDeliveredPerContactReport
-Report.report4 = OverheadPerContactReport
-Report.report5 = BufferOccupancyReport
-Report.report6 = MessageDelayReport
-Report.report7 = MessageDeleteReport
-Report.report8 = LatencyPerContactReport
