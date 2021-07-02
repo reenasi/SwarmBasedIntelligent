@@ -12,13 +12,13 @@ Scenario.endTime = 8640000
 Group.movementModel = StationaryMovement
 Group.nodeLocation = 0,1
 
-#Group.router = DecisionEngineRouter
-#DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
+Group.router = DecisionEngineRouter
+DecisionEngineRouter.decisionEngine = EpidemicDecisionRouter 
 #DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
 #DecisionEngineRouter.nrofCopies = 10
 #DecisionEngineRouter.binaryMode = true
 
-Group.router = EpidemicRouter
+#Group.router = EpidemicRouter
 
 Group.bufferSize = 15M
 Group.waitTime = 0, 120

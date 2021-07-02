@@ -68,7 +68,7 @@ Group.movementModel = RandomWaypoint
 
 
 Group.router = SprayAndWaitRouter
-SprayAndWaitRouter.nrofCopies = 5
+SprayAndWaitRouter.nrofCopies = 8
 SprayAndWaitRouter.binaryMode = true
 
 

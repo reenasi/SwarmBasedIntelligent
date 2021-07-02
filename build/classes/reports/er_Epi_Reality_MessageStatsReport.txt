@@ -1,20 +1,21 @@
+
 Message stats for scenario er_Epi_Reality
 sim_time: 8640000.0000
 created: 191
-started: 276877
-relayed: 267830
-aborted: 9047
-dropped: 266843
+started: 178486
+relayed: 169131
+aborted: 9355
+dropped: 168113
 removed: 0
 delivered: 124
 delivery_prob: 0.6492
 response_prob: 0.0000
-overhead_ratio: 2158.9194
-latency_avg: 289152.1694
-latency_med: 192060.0000
-hopcount_avg: 7.0081
+overhead_ratio: 1362.9597
+latency_avg: 304844.6532
+latency_med: 211966.0000
+hopcount_avg: 10.2419
 hopcount_med: 6
-buffertime_avg: 35689.1800
-buffertime_med: 83.0000
+buffertime_avg: 56643.9227
+buffertime_med: 214.0000
 rtt_avg: NaN
 rtt_med: NaN
