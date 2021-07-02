@@ -1,0 +1,20 @@
+Message stats for scenario Reality_SIR
+sim_time: 8640000.0000
+created: 191
+started: 22987
+relayed: 16405
+aborted: 6582
+dropped: 1295
+removed: 15033
+delivered: 111
+delivery_prob: 0.5812
+response_prob: 0.0000
+overhead_ratio: 146.7928
+latency_avg: 364382.4595
+latency_med: 250782.0000
+hopcount_avg: 7.1802
+hopcount_med: 5
+buffertime_avg: 86422.1788
+buffertime_med: 2393.0000
+rtt_avg: NaN
+rtt_med: NaN

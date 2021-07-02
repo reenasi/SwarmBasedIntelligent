@@ -1,0 +1,20 @@
+Message stats for scenario SnF_Reality
+sim_time: 8640000.0000
+created: 191
+started: 35528
+relayed: 22182
+aborted: 13346
+dropped: 1275
+removed: 20809
+delivered: 128
+delivery_prob: 0.6702
+response_prob: 0.0000
+overhead_ratio: 172.2969
+latency_avg: 341015.0000
+latency_med: 246431.0000
+hopcount_avg: 5.9688
+hopcount_med: 5
+buffertime_avg: 63451.0689
+buffertime_med: 6440.0000
+rtt_avg: NaN
+rtt_med: NaN

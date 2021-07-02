@@ -1,0 +1,20 @@
+Message stats for scenario ar_SnW_Random_NEW
+sim_time: 604800.0999
+created: 504
+started: 3892
+relayed: 3858
+aborted: 34
+dropped: 3738
+removed: 0
+delivered: 497
+delivery_prob: 0.9861
+response_prob: 0.0000
+overhead_ratio: 6.7626
+latency_avg: 5953.8334
+latency_med: 4983.9000
+hopcount_avg: 2.3280
+hopcount_med: 2
+buffertime_avg: 19590.2930
+buffertime_med: 19947.3000
+rtt_avg: NaN
+rtt_med: NaN

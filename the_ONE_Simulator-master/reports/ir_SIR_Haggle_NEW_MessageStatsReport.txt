@@ -1,0 +1,20 @@
+Message stats for scenario ir_SIR_Haggle_NEW
+sim_time: 274883.0000
+created: 141
+started: 823
+relayed: 375
+aborted: 448
+dropped: 358
+removed: 0
+delivered: 82
+delivery_prob: 0.5816
+response_prob: 0.0000
+overhead_ratio: 3.5732
+latency_avg: 21668.9878
+latency_med: 22774.0000
+hopcount_avg: 1.9512
+hopcount_med: 2
+buffertime_avg: 39194.7737
+buffertime_med: 49424.0000
+rtt_avg: NaN
+rtt_med: NaN

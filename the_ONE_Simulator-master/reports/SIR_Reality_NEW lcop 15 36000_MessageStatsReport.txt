@@ -1,0 +1,20 @@
+Message stats for scenario SIR_Reality_NEW lcop 15 36000
+sim_time: 8640000.0000
+created: 191
+started: 2516
+relayed: 1037
+aborted: 1479
+dropped: 1032
+removed: 0
+delivered: 71
+delivery_prob: 0.3717
+response_prob: 0.0000
+overhead_ratio: 13.6056
+latency_avg: 418692.0986
+latency_med: 367694.0000
+hopcount_avg: 2.5775
+hopcount_med: 3
+buffertime_avg: 895645.9874
+buffertime_med: 1003728.0000
+rtt_avg: NaN
+rtt_med: NaN

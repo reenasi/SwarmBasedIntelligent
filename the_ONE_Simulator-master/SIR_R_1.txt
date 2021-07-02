@@ -1,0 +1,90 @@
+##Scenario settings
+Scenario.name = ir_SIR_Reality_NEW lcop 15
+Scenario.simulateConnections = false
+Scenario.updateInterval = 1
+# 86400s == 24h
+Scenario.endTime = 8640000
+
+##################################################
+
+# Common settings for all groups
+
+Group.movementModel = StationaryMovement
+Group.nodeLocation = 0,1
+
+Group.router = DecisionEngineRouter
+DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter11
+#DecisionEngineRouter.decisionEngine = SwarmIntelligentRouter9 EpidemicDecisionRouter SprayAndWaitRouterKu
+DecisionEngineRouter.nrofCopies = 15
+DecisionEngineRouter.binaryMode = true
+DecisionEngineRouter.max = 3600
+DecisionEngineRouter.min = 0
+
+Group.bufferSize = 15M
+Group.waitTime = 0, 120
+#Group.router = SprayAndWaitRouter
+
+# All nodes have the bluetooth interface
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+# Walking speeds
+Group.speed = 0.5, 1.5
+# Message TTL of 300 minutes (5 hours)
+Group.msgTtl = 20160
+
+Group.nrofHosts = 97
+
+Scenario.nrofHostGroups = 1
+
+# group1 (pedestrians) specific settings
+Group1.groupID = p
+
+
+##################################################
+## Message creation parameters 
+# How many event generators
+Events.nrof = 2
+Events1.class = ExternalEventsQueue
+Events1.filePath = RealityConnectionTraceFinal.txt
+
+# Class of the first event generator
+Events2.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+Events2.interval = 43200, 46800
+#Events2.interval = 150,180
+# Message sizes (500kB - 1MB)
+Events2.size = 500k, 1M
+Events2.hosts = 0,96
+Events2.prefix = M
+
+
+## Movement model settings
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 1
+# World's size for Movement Models without implicit size (width, height; meters)
+#MovementModel.worldSize = 4500, 3400
+MovementModel.worldSize = 100, 100
+# How long time to move hosts in the world before real simulation
+MovementModel.warmup = 1000
+
+###############################################################
+
+## Reports - all report names have to be valid report classes
+
+# how many reports to load
+Report.nrofReports = 1
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports
+# Report classes to load
+
+Report.report1 = MessageStatsReport
+#Report.report2 = MessageDeliveryReport
+#Report.report3 = MessageDeliveredPerContactReport
+#Report.report4 = OverheadPerContactReport
+#Report.report5 = BufferOccupancyReport
+#Report.report6 = MessageDelayReport
+#Report.report7 = MessageDeleteReport
+#Report.report8 = LatencyPerContactReport

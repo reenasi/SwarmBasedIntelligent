@@ -1,0 +1,20 @@
+Message stats for scenario SnF_Random
+sim_time: 604800.0999
+created: 504
+started: 34902
+relayed: 34169
+aborted: 733
+dropped: 4254
+removed: 29772
+delivered: 499
+delivery_prob: 0.9901
+response_prob: 0.0000
+overhead_ratio: 67.4749
+latency_avg: 5492.5022
+latency_med: 4702.0000
+hopcount_avg: 3.5912
+hopcount_med: 3
+buffertime_avg: 2465.9368
+buffertime_med: 1915.6000
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,20 @@
+Message stats for scenario Epi_Reality
+sim_time: 8640000.0000
+created: 191
+started: 178486
+relayed: 169131
+aborted: 9355
+dropped: 168113
+removed: 0
+delivered: 124
+delivery_prob: 0.6492
+response_prob: 0.0000
+overhead_ratio: 1362.9597
+latency_avg: 304844.6532
+latency_med: 211966.0000
+hopcount_avg: 10.2419
+hopcount_med: 6
+buffertime_avg: 56643.9227
+buffertime_med: 214.0000
+rtt_avg: NaN
+rtt_med: NaN
